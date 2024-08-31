@@ -1,0 +1,121 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM12 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM12 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4000c053: xthal_get_ccount in ROM
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40084369: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/crosscore_int.c:172
+0x40087a8e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+0x400d531e: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:16
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4000c053: xthal_get_ccount in ROM
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40084369: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/crosscore_int.c:172
+0x40087a8e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+0x400d531e: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:16
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008541: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008547: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40084369: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/crosscore_int.c:172
+0x40087a8e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+0x400d531e: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:16
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008544: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4000c04d: _xtos_return_from_exc in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40008541: ets_delay_us in ROM
+0x400d53dc: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:48
+0x400d5318: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:15
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d725b: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x400d7620: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x40084369: esp_crosscore_int_send_yield at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/crosscore_int.c:172
+0x40087a8e: vTaskDelay at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+0x400d531e: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:16
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

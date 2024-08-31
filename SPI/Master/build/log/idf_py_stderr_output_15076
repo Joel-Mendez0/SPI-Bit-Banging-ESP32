@@ -1,0 +1,25 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008c52c: _xt_context_save at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_context.S:117
+[0m
+[0;33m0x400d1a22: panic_handler at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40084406: _xt_panic at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/port/arch/xtensa/panic_handler_asm.S:39
+[0m
+[0;33m0x400d1a22: panic_handler at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008440d: _xt_panic at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/port/arch/xtensa/panic_handler_asm.S:44
+[0m
+[0;33m0x400d1a22: panic_handler at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0m

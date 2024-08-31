@@ -1,0 +1,476 @@
+ɕ�bootloader[0m�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7172
+load:0x40078000,len:15552
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 28 2024 23:24:51[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=091bch ( 37308) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=000191e4 vaddr=3ffb0000 size=02238h (  8760) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b424 vaddr=40080000 size=04bf4h ( 19444) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=132e8h ( 78568) map[0m
+[0;32mI (152) esp_image: segment 4: paddr=00033310 vaddr=40084bf4 size=07ae4h ( 31460) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (181) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     app-template[0m
+[0;32mI (198) cpu_start: App version:      f30cbff-dirty[0m
+[0;32mI (203) cpu_start: Compile time:     Aug 28 2024 23:24:45[0m
+[0;32mI (209) cpu_start: ELF file SHA256:  38f77317f...[0m
+[0;32mI (215) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (234) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (260) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (267) heap_init: At 4008C6D8 len 00013928 (78 KiB): IRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;32mI (282) main_task: Started on CPU0[0m
+[0;32mI (292) main_task: Calling app_main()[0m
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 255
+Received from Slave: 0
+Received from Slave: 95
+Received from Slave: 80
+Received from Slave: 127
+Received from Slave: 255
+Received from Slave: 126
+Received from Slave: 254
+Received from Slave: 125
+Received from Slave: 253
+Received from Slave: 124
+Received from Slave: 252
+Received from Slave: 123
+Received from Slave: 251
+Received from Slave: 122
+Received from Slave: 250
+Received from Slave: 121
+Received from Slave: 249
+Received from Slave: 120
+Received from Slave: 248
+Received from Slave: 119
+Received from Slave: 247
+Received from Slave: 118
+Received from Slave: 246
+Received from Slave: 117
+Received from Slave: 245
+Received from Slave: 116
+Received from Slave: 244
+Received from Slave: 115
+Received from Slave: 243
+Received from Slave: 114
+Received from Slave: 242
+Received from Slave: 113
+Received from Slave: 241
+Received from Slave: 112
+Received from Slave: 240
+Received from Slave: 111
+Received from Slave: 239
+Received from Slave: 110
+Received from Slave: 238
+Received from Slave: 109
+Received from Slave: 237
+Received from Slave: 108
+Received from Slave: 236
+Received from Slave: 107
+Received from Slave: 235
+Received from Slave: 106
+Received from Slave: 234
+Received from Slave: 105
+Received from Slave: 233
+Received from Slave: 104
+Received from Slave: 232
+Received from Slave: 103
+Received from Slave: 231
+Received from Slave: 102
+Received from Slave: 230
+Received from Slave: 101
+Received from Slave: 229
+Received from Slave: 100
+Received from Slave: 228
+Received from Slave: 99
+Received from Slave: 227
+Received from Slave: 98
+Received from Slave: 226
+Received from Slave: 97
+Received from Slave: 225
+Received from Slave: 96
+Received from Slave: 224
+Received from Slave: 95
+Received from Slave: 223
+Received from Slave: 94
+Received from Slave: 222
+Received from Slave: 93
+Received from Slave: 221
+Received from Slave: 92
+Received from Slave: 220
+Received from Slave: 91
+Received from Slave: 219
+Received from Slave: 90
+Received from Slave: 218
+Received from Slave: 89
+Received from Slave: 217
+Received from Slave: 88
+Received from Slave: 216
+Received from Slave: 87
+Received from Slave: 215
+Received from Slave: 86
+Received from Slave: 214
+Received from Slave: 85
+Received from Slave: 213
+Received from Slave: 84
+Received from Slave: 212
+Received from Slave: 83
+Received from Slave: 211
+Received from Slave: 82
+Received from Slave: 210
+Received from Slave: 81
+Received from Slave: 209
+Received from Slave: 80
+Received from Slave: 208
+Received from Slave: 79
+Received from Slave: 207
+Received from Slave: 78
+Received from Slave: 206
+Received from Slave: 77
+Received from Slave: 205
+Received from Slave: 76
+Received from Slave: 204
+Received from Slave: 75
+Received from Slave: 203
+Received from Slave: 74
+Received from Slave: 202
+Received from Slave: 73
+Received from Slave: 201
+Received from Slave: 72
+Received from Slave: 200
+Received from Slave: 71
+Received from Slave: 199
+Received from Slave: 70
+Received from Slave: 198
+Received from Slave: 69
+Received from Slave: 197
+Received from Slave: 68
+Received from Slave: 196
+Received from Slave: 67
+Received from Slave: 195
+Received from Slave: 66
+Received from Slave: 194
+Received from Slave: 65
+Received from Slave: 193
+Received from Slave: 64
+Received from Slave: 192
+Received from Slave: 63
+Received from Slave: 191
+Received from Slave: 62
+Received from Slave: 190
+Received from Slave: 61
+Received from Slave: 189
+Received from Slave: 60
+Received from Slave: 188
+Received from Slave: 59
+Received from Slave: 187
+Received from Slave: 58
+Received from Slave: 186
+Received from Slave: 57
+Received from Slave: 185
+Received from Slave: 56
+Received from Slave: 184
+Received from Slave: 55
+Received from Slave: 183
+Received from Slave: 54
+Received from Slave: 182
+Received from Slave: 53
+Received from Slave: 181
+Received from Slave: 52
+Received from Slave: 180
+Received from Slave: 51
+Received from Slave: 179
+Received from Slave: 50
+Received from Slave: 178
+Received from Slave: 49
+Received from Slave: 177
+Received from Slave: 48
+Received from Slave: 176
+Received from Slave: 47
+Received from Slave: 175
+Received from Slave: 46
+Received from Slave: 174
+Received from Slave: 45
+Received from Slave: 173
+Received from Slave: 44
+Received from Slave: 172
+Received from Slave: 43
+Received from Slave: 171
+Received from Slave: 42
+Received from Slave: 170
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7172
+load:0x40078000,len:15552
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 28 2024 23:24:51[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=091bch ( 37308) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=000191e4 vaddr=3ffb0000 size=02238h (  8760) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b424 vaddr=40080000 size=04bf4h ( 19444) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=132e8h ( 78568) map[0m
+[0;32mI (152) esp_image: segment 4: paddr=00033310 vaddr=40084bf4 size=07ae4h ( 31460) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (181) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     app-template[0m
+[0;32mI (198) cpu_start: App version:      f30cbff-dirty[0m
+[0;32mI (203) cpu_start: Compile time:     Aug 28 2024 23:24:45[0m
+[0;32mI (209) cpu_start: ELF file SHA256:  38f77317f...[0m
+[0;32mI (215) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (234) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (260) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (267) heap_init: At 4008C6D8 len 00013928 (78 KiB): IRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;32mI (282) main_task: Started on CPU0[0m
+[0;32mI (292) main_task: Calling app_main()[0m
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7172
+load:0x40078000,len:15552
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 28 2024 23:24:51[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=091bch ( 37308) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=000191e4 vaddr=3ffb0000 size=02238h (  8760) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b424 vaddr=40080000 size=04bf4h ( 19444) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=132e8h ( 78568) map[0m
+[0;32mI (152) esp_image: segment 4: paddr=00033310 vaddr=40084bf4 size=07ae4h ( 31460) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (181) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     app-template[0m
+[0;32mI (198) cpu_start: App version:      f30cbff-dirty[0m
+[0;32mI (203) cpu_start: Compile time:     Aug 28 2024 23:24:45[0m
+[0;32mI (209) cpu_start: ELF file SHA256:  38f77317f...[0m
+[0;32mI (215) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (234) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (260) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (267) heap_init: At 4008C6D8 len 00013928 (78 KiB): IRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;32mI (282) main_task: Started on CPU0[0m
+[0;32mI (292) main_task: Calling app_main()[0m
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:7172
+load:0x40078000,len:15552
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 28 2024 23:24:51[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 80MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=091bch ( 37308) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=000191e4 vaddr=3ffb0000 size=02238h (  8760) load[0m
+[0;32mI (118) esp_image: segment 2: paddr=0001b424 vaddr=40080000 size=04bf4h ( 19444) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=132e8h ( 78568) map[0m
+[0;32mI (152) esp_image: segment 4: paddr=00033310 vaddr=40084bf4 size=07ae4h ( 31460) load[0m
+[0;32mI (169) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (169) boot: Disabling RNG early entropy source...[0m
+[0;32mI (181) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) cpu_start: Application information:[0m
+[0;32mI (192) cpu_start: Project name:     app-template[0m
+[0;32mI (198) cpu_start: App version:      f30cbff-dirty[0m
+[0;32mI (203) cpu_start: Compile time:     Aug 28 2024 23:24:45[0m
+[0;32mI (209) cpu_start: ELF file SHA256:  38f77317f...[0m
+[0;32mI (215) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (220) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (225) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (230) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (234) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (242) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FFB2AE0 len 0002D520 (181 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (260) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (267) heap_init: At 4008C6D8 len 00013928 (78 KiB): IRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;32mI (282) main_task: Started on CPU0[0m
+[0;32mI (292) main_task: Calling app_main()[0m

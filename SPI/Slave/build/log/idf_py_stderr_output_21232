@@ -1,0 +1,11 @@
+Note: C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;-m;esp_idf_monitor will search for a serial port. To specify a port, set the ESPPORT environment variable.
+Note: C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;-m;esp_idf_monitor will attempt to set baud rate automatically. To specify a baud rate, set the ESPBAUD environment variable.
+--- Using autodetected port COM13
+--- WARNING: GDB cannot open serial ports accessed as COMx
+--- Using \\.\COM13 instead...
+--- esp-idf-monitor 1.4.0 on \\.\COM13 115200 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+0x40080400: _init at ??:?
+
+Warning: checksum mismatch between flashed and built applications. Checksum of built application is cff1f3919feb703db4bf4a3be7ba56a6f71e906b3e8a4cd6e2414c8c6d60f28d
+

@@ -1,0 +1,624 @@
+��ѱ�����m[0ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 26 2024 22:46:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=097ech ( 38892) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019814 vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001ba70 vaddr=40080000 size=045a8h ( 17832) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13a48h ( 80456) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00033a70 vaddr=400845a8 size=081dch ( 33244) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     app-template[0m
+[0;32mI (208) cpu_start: App version:      v5.2.2-dirty[0m
+[0;32mI (214) cpu_start: Compile time:     Aug 26 2024 22:46:50[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  933d92ddc...[0m
+[0;32mI (225) cpu_start: ESP-IDF:          v5.2.2-dirty[0m
+[0;32mI (230) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (235) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (240) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (245) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (258) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM[0m
+[0;32mI (264) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 4008C784 len 0001387C (78 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (288) spi_flash: flash io: dio[0m
+[0;33mW (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+Received Data: 0
+Received Data: 1
+Received Data: 2
+Received Data: 3
+Received Data: 2
+Received Data: 1
+Received Data: 6
+Received Data: 7
+Received Data: 8
+Received Data: 8
+Received Data: 4
+Received Data: 7
+Received Data: 12
+Received Data: 13
+Received Data: 14
+Received Data: 7
+Received Data: 0
+Received Data: 17
+Received Data: 2
+Received Data: 19
+Received Data: 4
+Received Data: 22
+Received Data: 23
+Received Data: 15
+Received Data: 8
+Received Data: 25
+Received Data: 10
+Received Data: 11
+Received Data: 12
+Received Data: 13
+Received Data: 14
+Received Data: 15
+Received Data: 32
+Received Data: 33
+Received Data: 50
+Received Data: 19
+Received Data: 52
+Received Data: 21
+Received Data: 54
+Received Data: 51
+Received Data: 48
+Received Data: 25
+Received Data: 50
+Received Data: 27
+Received Data: 36
+Received Data: 53
+Received Data: 22
+Received Data: 31
+Received Data: 24
+Received Data: 17
+Received Data: 18
+Received Data: 59
+Received Data: 20
+Received Data: 21
+Received Data: 22
+Received Data: 63
+Received Data: 60
+Received Data: 57
+Received Data: 26
+Received Data: 59
+Received Data: 60
+Received Data: 61
+Received Data: 62
+Received Data: 63
+Received Data: 64
+Received Data: 33
+Received Data: 98
+Received Data: 35
+Received Data: 36
+Received Data: 101
+Received Data: 66
+Received Data: 39
+Received Data: 104
+Received Data: 69
+Received Data: 70
+Received Data: 99
+Received Data: 44
+Received Data: 101
+Received Data: 79
+Received Data: 71
+Received Data: 72
+Received Data: 97
+Received Data: 50
+Received Data: 99
+Received Data: 100
+Received Data: 86
+Received Data: 74
+Received Data: 111
+Received Data: 92
+Received Data: 88
+Received Data: 93
+Received Data: 79
+Received Data: 108
+Received Data: 93
+Received Data: 110
+Received Data: 31
+Received Data: 32
+Received Data: 33
+Received Data: 114
+Received Data: 115
+Received Data: 36
+Received Data: 36
+Received Data: 39
+Received Data: 119
+Received Data: 108
+Received Data: 41
+Received Data: 122
+Received Data: 109
+Received Data: 44
+Received Data: 125
+Received Data: 111
+Received Data: 47
+Received Data: 112
+Received Data: 112
+Received Data: 51
+Received Data: 115
+Received Data: 114
+Received Data: 53
+Received Data: 118
+Received Data: 115
+Received Data: 56
+Received Data: 121
+Received Data: 121
+Received Data: 59
+Received Data: 124
+Received Data: 127
+Received Data: 63
+Received Data: 127
+Received Data: 128
+Received Data: 193
+Received Data: 130
+Received Data: 131
+Received Data: 196
+Received Data: 133
+Received Data: 130
+Received Data: 199
+Received Data: 200
+Received Data: 133
+Received Data: 137
+Received Data: 203
+Received Data: 142
+Received Data: 205
+Received Data: 134
+Received Data: 143
+Received Data: 208
+Received Data: 137
+Received Data: 138
+Received Data: 147
+Received Data: 212
+Received Data: 153
+Received Data: 151
+Received Data: 199
+Received Data: 156
+Received Data: 216
+Received Data: 138
+Received Data: 159
+Received Data: 158
+Received Data: 205
+Received Data: 158
+Received Data: 223
+Received Data: 208
+Received Data: 177
+Received Data: 161
+Received Data: 211
+Received Data: 160
+Received Data: 228
+Received Data: 214
+Received Data: 179
+Received Data: 172
+Received Data: 201
+Received Data: 182
+Received Data: 169
+Received Data: 220
+Received Data: 181
+Received Data: 174
+Received Data: 207
+Received Data: 184
+Received Data: 176
+Received Data: 210
+Received Data: 187
+Received Data: 184
+Received Data: 244
+Received Data: 150
+Received Data: 183
+Received Data: 216
+Received Data: 185
+Received Data: 190
+Received Data: 249
+Received Data: 220
+Received Data: 191
+Received Data: 223
+Received Data: 191
+Received Data: 192
+Received Data: 225
+Received Data: 226
+Received Data: 193
+Received Data: 228
+Received Data: 229
+Received Data: 194
+Received Data: 199
+Received Data: 232
+Received Data: 204
+[0;31mE (5316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (5316) task_wdt: Tasks currently running:[0m
+[0;31mE (5316) task_wdt: CPU 0: main[0m
+[0;31mE (5316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6084:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+
+Received Data: 207
+Received Data: 207
+Received Data: 224
+Received Data: 217
+Received Data: 211
+Received Data: 227
+Received Data: 214
+Received Data: 245
+Received Data: 238
+Received Data: 219
+Received Data: 216
+Received Data: 233
+Received Data: 221
+Received Data: 251
+Received Data: 236
+Received Data: 205
+Received Data: 223
+Received Data: 255
+Received Data: 224
+Received Data: 225
+Received Data: 242
+Received Data: 243
+Received Data: 230
+Received Data: 229
+Received Data: 226
+Received Data: 231
+Received Data: 248
+Received Data: 241
+Received Data: 233
+Received Data: 235
+Received Data: 238
+Received Data: 236
+Received Data: 254
+Received Data: 239
+Received Data: 240
+Received Data: 241
+Received Data: 250
+Received Data: 241
+Received Data: 244
+Received Data: 251
+Received Data: 247
+Received Data: 247
+Received Data: 248
+Received Data: 253
+Received Data: 250
+Received Data: 251
+Received Data: 254
+Received Data: 253
+Received Data: 254
+Received Data: 255
+[0;31mE (10316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (10316) task_wdt: Tasks currently running:[0m
+[0;31mE (10316) task_wdt: CPU 0: main[0m
+[0;31mE (10316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6079:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+
+Received Data: 0
+Received Data: 0
+Received Data: 0
+Received Data: 3
+Received Data: 4
+Received Data: 5
+Received Data: 7
+Received Data: 7
+Received Data: 4
+Received Data: 5
+Received Data: 10
+Received Data: 11
+Received Data: 12
+Received Data: 13
+Received Data: 6
+Received Data: 7
+Received Data: 0
+Received Data: 17
+Received Data: 2
+Received Data: 19
+Received Data: 20
+Received Data: 13
+Received Data: 6
+Received Data: 23
+Received Data: 8
+Received Data: 24
+Received Data: 27
+Received Data: 11
+Received Data: 12
+Received Data: 13
+Received Data: 14
+Received Data: 15
+Received Data: 48
+Received Data: 49
+Received Data: 18
+Received Data: 3
+Received Data: 36
+Received Data: 5
+Received Data: 39
+Received Data: 23
+Received Data: 24
+Received Data: 9
+Received Data: 43
+Received Data: 11
+Received Data: 28
+Received Data: 53
+Received Data: 30
+Received Data: 55
+Received Data: 56
+Received Data: 57
+Received Data: 58
+Received Data: 59
+Received Data: 20
+Received Data: 61
+Received Data: 30
+Received Data: 31
+Received Data: 60
+Received Data: 57
+Received Data: 26
+Received Data: 59
+Received Data: 60
+Received Data: 61
+Received Data: 62
+Received Data: 63
+Received Data: 64
+Received Data: 33
+Received Data: 98
+Received Data: 35
+Received Data: 36
+Received Data: 101
+Received Data: 66
+Received Data: 39
+Received Data: 104
+Received Data: 69
+Received Data: 70
+Received Data: 99
+Received Data: 44
+Received Data: 101
+Received Data: 79
+Received Data: 79
+Received Data: 72
+Received Data: 105
+Received Data: 90
+Received Data: 107
+Received Data: 86
+Received Data: 86
+Received Data: 74
+Received Data: 111
+Received Data: 88
+Received Data: 24
+Received Data: 27
+Received Data: 59
+Received Data: 76
+Received Data: 109
+Received Data: 95
+Received Data: 31
+Received Data: 32
+Received Data: 33
+Received Data: 114
+Received Data: 97
+Received Data: 96
+Received Data: 117
+Received Data: 103
+Received Data: 39
+Received Data: 112
+Received Data: 108
+Received Data: 42
+Received Data: 123
+Received Data: 46
+Received Data: 44
+Received Data: 46
+Received Data: 127
+Received Data: 112
+Received Data: 49
+Received Data: 114
+Received Data: 113
+Received Data: 52
+Received Data: 117
+Received Data: 119
+Received Data: 55
+Received Data: 120
+Received Data: 125
+Received Data: 58
+Received Data: 123
+Received Data: 126
+Received Data: 60
+Received Data: 126
+Received Data: 127
+Received Data: 192
+Received Data: 129
+Received Data: 128
+Received Data: 195
+Received Data: 132
+Received Data: 131
+Received Data: 199
+Received Data: 135
+Received Data: 132
+Received Data: 201
+Received Data: 130
+Received Data: 135
+Received Data: 204
+Received Data: 133
+Received Data: 134
+Received Data: 207
+Received Data: 136
+Received Data: 153
+Received Data: 211
+Received Data: 139
+Received Data: 152
+Received Data: 212
+Received Data: 142
+Received Data: 155
+Received Data: 216
+Received Data: 137
+Received Data: 158
+Received Data: 219
+Received Data: 140
+Received Data: 157
+Received Data: 223
+Received Data: 143
+Received Data: 160
+Received Data: 193
+Received Data: 178
+Received Data: 161
+Received Data: 196
+Received Data: 181
+Received Data: 162
+Received Data: 231
+Received Data: 152
+Received Data: 173
+Received Data: 235
+Received Data: 179
+Received Data: 174
+Received Data: 205
+Received Data: 182
+Received Data: 175
+Received Data: 208
+Received Data: 185
+Received Data: 177
+Received Data: 211
+Received Data: 188
+Received Data: 182
+Received Data: 214
+Received Data: 191
+Received Data: 188
+Received Data: 217
+Received Data: 186
+Received Data: 185
+Received Data: 220
+Received Data: 189
+Received Data: 190
+Received Data: 223
+Received Data: 192
+Received Data: 192
+Received Data: 226
+Received Data: 227
+Received Data: 198
+Received Data: 229
+Received Data: 194
+Received Data: 199
+Received Data: 232
+Received Data: 225
+Received Data: 205
+Received Data: 235
+Received Data: 196
+Received Data: 206
+Received Data: 238
+Received Data: 231
+Received Data: 208
+Received Data: 241
+Received Data: 202
+Received Data: 209
+Received Data: 244
+Received Data: 237
+Received Data: 210
+Received Data: 247
+Received Data: 200
+Received Data: 216
+Received Data: 250
+Received Data: 235
+Received Data: 222
+Received Data: 253
+Received Data: 206
+Received Data: 223
+Received Data: 224
+Received Data: 241
+Received Data: 225
+Received Data: 227
+Received Data: 244
+Received Data: 230
+Received Data: 230
+Received Data: 247
+Received Data: 236
+Received Data: 233
+Received Data: 242
+Received Data: 233
+Received Data: 236
+Received Data: 245
+Received Data: 238
+Received Data: 239
+Received Data: 248
+Received Data: 240
+Received Data: 242
+Received Data: 251
+Received Data: 250
+Received Data: 245
+Received Data: 254
+Received Data: 247
+Received Data: 248
+Received Data: 249
+Received Data: 252
+Received Data: 251
+Received Data: 252
+Received Data: 254
+Received Data: 255
+Received Data: 255
+[0;31mE (15316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (15316) task_wdt: Tasks currently running:[0m
+[0;31mE (15316) task_wdt: CPU 0: main[0m
+[0;31mE (15316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6079:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+
+[0;31mE (20316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (20316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (20316) task_wdt: Tasks currently running:[0m
+[0;31mE (20316) task_wdt: CPU 0: main[0m
+[0;31mE (20316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (20316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6079:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+
+[0;31mE (25316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (25316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (25316) task_wdt: Tasks currently running:[0m
+[0;31mE (25316) task_wdt: CPU 0: main[0m
+[0;31mE (25316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (25316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6079:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+
+[0;31mE (30316) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (30316) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (30316) task_wdt: Tasks currently running:[0m
+[0;31mE (30316) task_wdt: CPU 0: main[0m
+[0;31mE (30316) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (30316) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400D712F:0x3FFB0E20 0x400D74F4:0x3FFB0E40 0x40082F55:0x3FFB0E70 0x400D6079:0x3FFB4DA0 0x400D534E:0x3FFB4DD0 0x400D52FF:0x3FFB4DF0 0x400E323C:0x3FFB4E10 0x40086025:0x3FFB4E40
+

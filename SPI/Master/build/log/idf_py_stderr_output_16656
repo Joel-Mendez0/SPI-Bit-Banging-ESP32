@@ -1,0 +1,33 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM4 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is f67355015257f0ec8acdfc83316955d10338859b78afff46762e8242143c5c7a[0m
+[0;33m0x400d718f: task_wdt_timeout_abort at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:399
+0x400d7554: esp_task_wdt_print_triggered_tasks at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:824
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x400d60df: gpio_set_level at C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/gpio/gpio.c:238
+0x400d53ae: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:41
+0x400d5323: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:11 (discriminator 1)
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d718f: task_wdt_timeout_abort at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:399
+0x400d7554: esp_task_wdt_print_triggered_tasks at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:824
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x400d53a8: INITSPI at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:39
+0x400d5323: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:11 (discriminator 1)
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d718f: task_wdt_timeout_abort at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:399
+0x400d7554: esp_task_wdt_print_triggered_tasks at C:/Espressif/frameworks/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:824
+0x40082f55: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x400d60df: gpio_set_level at C:/Espressif/frameworks/esp-idf-v5.2.2/components/driver/gpio/gpio.c:238
+0x400d53ae: WRITEBYTE at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/SPI.c:41
+0x400d5323: MasterTask at C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPI/main/master.c:11 (discriminator 1)
+0x40086025: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

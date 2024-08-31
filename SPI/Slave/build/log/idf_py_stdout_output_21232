@@ -1,0 +1,57 @@
+[0/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.2.2 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;-m;esp_idf_monitor -D SERIAL_TOOL_ARGS=--target;esp32;--revision;0;C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPISlave/build/app-template.elf -D WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.2.2/projects/BitBangingSPISlave/build ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+I (31) boot: ESP-IDF v5.2.2-dirty 2nd stage bootloader
+I (31) boot: compile time Aug 26 2024 22:46:30
+I (31) boot: Multicore bootloader
+I (36) boot: chip revision: v3.1
+I (40) boot.esp32: SPI Speed      : 40MHz
+I (44) boot.esp32: SPI Mode       : DIO
+I (49) boot.esp32: SPI Flash Size : 2MB
+I (53) boot: Enabling RNG early entropy source...
+I (59) boot: Partition Table:
+I (62) boot: ## Label            Usage          Type ST Offset   Length
+I (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (85) boot:  2 factory          factory app      00 00 00010000 00100000
+I (92) boot: End of partition table
+I (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=097ech ( 38892) map
+I (118) esp_image: segment 1: paddr=00019814 vaddr=3ffb0000 size=02254h (  8788) load
+I (122) esp_image: segment 2: paddr=0001ba70 vaddr=40080000 size=045a8h ( 17832) load
+I (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13b74h ( 80756) map
+I (160) esp_image: segment 4: paddr=00033b9c vaddr=400845a8 size=081dch ( 33244) load
+I (180) boot: Loaded app from partition at offset 0x10000
+I (180) boot: Disabling RNG early entropy source...
+I (191) cpu_start: Multicore app
+I (200) cpu_start: Pro cpu start user code
+I (200) cpu_start: cpu freq: 160000000 Hz
+I (200) cpu_start: Application information:
+I (203) cpu_start: Project name:     app-template
+I (208) cpu_start: App version:      f30cbff-dirty
+I (214) cpu_start: Compile time:     Aug 26 2024 22:46:23
+I (220) cpu_start: ELF file SHA256:  e4b680738...
+I (225) cpu_start: ESP-IDF:          v5.2.2-dirty
+I (231) cpu_start: Min chip rev:     v0.0
+I (235) cpu_start: Max chip rev:     v3.99 
+I (240) cpu_start: Chip rev:         v3.1
+I (245) heap_init: Initializing. RAM available for dynamic allocation:
+I (252) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (258) heap_init: At 3FFB2B18 len 0002D4E8 (181 KiB): DRAM
+I (264) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (277) heap_init: At 4008C784 len 0001387C (78 KiB): IRAM
+I (285) spi_flash: detected chip: generic
+I (288) spi_flash: flash io: dio
+W (292) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (306) main_task: Started on CPU0
+I (316) main_task: Calling app_main()
+-P run_serial_tool.cmake"

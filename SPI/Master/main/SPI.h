@@ -8,8 +8,6 @@
 #ifndef MAIN_SPI_H_
 #define MAIN_SPI_H_
 
-#include <stdint.h>
-#include "esp_rom_sys.h"
 #include "driver/gpio.h"
 
 #define MOSIPIN 21
@@ -18,8 +16,7 @@
 #define CSPIN 5
 
 void INITSPI(void);
-void WRITEBYTE(uint8_t byte);
-void TRANSMIT(uint8_t* data, uint32_t length);
-uint8_t READBYTE(void);
+void MASTERTRANSMIT(uint8_t* data, uint32_t length);
+void MASTERRECEIVE(uint8_t *buffer, uint32_t length);
 
 #endif /* MAIN_SPI_H_ */

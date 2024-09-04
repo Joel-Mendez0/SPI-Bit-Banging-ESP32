@@ -16,9 +16,6 @@
 #define CSPIN 5
 
 void INITSPI(void);
-uint8_t READBYTE(void);
-void WRITEBYTE(uint8_t byte);
-void TRANSMIT(uint8_t *data, uint32_t length);
-
-
+void SLAVERECEIVE(uint8_t *buffer, uint32_t length);
+void SLAVETRANSMIT(uint8_t* data, uint32_t length);
 #endif /* MAIN_SPI_H_ */

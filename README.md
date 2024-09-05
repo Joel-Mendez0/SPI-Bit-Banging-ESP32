@@ -66,7 +66,7 @@ Master ESP32                     Slave ESP32
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ESP32_SPI_BitBang.git](https://github.com/Joel-Mendez0/SPI-Bit-Banging-ESP32.git
+   git clone https://github.com/Joel-Mendez0/SPI-Bit-Banging-ESP32.git
    cd SPI-Bit-Banging-ESP32
    ```
 

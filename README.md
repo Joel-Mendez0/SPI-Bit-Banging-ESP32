@@ -66,8 +66,8 @@ Master ESP32                     Slave ESP32
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ESP32_SPI_BitBang.git
-   cd ESP32_SPI_BitBang
+   git clone https://github.com/yourusername/ESP32_SPI_BitBang.git](https://github.com/Joel-Mendez0/SPI-Bit-Banging-ESP32.git
+   cd SPI-Bit-Banging-ESP32
    ```
 
 2. **Configure the ESP-IDF environment**:
@@ -97,7 +97,6 @@ Master ESP32                     Slave ESP32
 
 ## Future Improvements
 
-- Add support for different data sizes.
 - Implement error detection and correction mechanisms.
 - Optimize the bit-banging speed to further reduce transfer time.
 

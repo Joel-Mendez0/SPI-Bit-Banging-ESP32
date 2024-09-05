@@ -10,7 +10,7 @@
 
 #include "driver/gpio.h"
 
-#define MOSIPIN 21
+#define MOSIPIN 23
 #define MISOPIN 19
 #define SCLKPIN 18
 #define CSPIN 5

@@ -19,6 +19,8 @@ void INITSPI(void) {
     
     gpio_set_direction(CSPIN, GPIO_MODE_OUTPUT);
     
+    // Default State
+    
     gpio_set_level(CSPIN, 1);
     
     gpio_set_level(SCLKPIN, 0);
@@ -54,8 +56,12 @@ void MASTERTRANSMIT(uint8_t *data, uint32_t length) {
 			usleep(10); // // Allow Clock to be pulled high
         }
     }
+    
+     // Default State
 
     gpio_set_level(CSPIN, 1);  // Deselect the slave
+    gpio_set_level(SCLKPIN, 0);
+    gpio_set_level(MOSIPIN,0);
 }
 
 void MASTERRECEIVE(uint8_t *buffer, uint32_t length) {
@@ -87,6 +93,9 @@ void MASTERRECEIVE(uint8_t *buffer, uint32_t length) {
         buffer[j] = receivedByte;  // Store the received byte in the buffer
     }
     
+    // Default State
+    
     gpio_set_level(CSPIN,1); // Deselect Slave
     gpio_set_level(SCLKPIN, 0); // Place clock in idle state
+    gpio_set_level(MOSIPIN,0);
 }

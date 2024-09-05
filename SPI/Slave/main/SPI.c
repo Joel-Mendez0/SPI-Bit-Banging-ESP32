@@ -50,6 +50,8 @@ void SLAVERECEIVE(uint8_t *buffer, uint32_t length) {
         buffer[j] = receivedByte; // add byte to buffer
     }
     
+     // Default State
+    
     gpio_set_level(MISOPIN, 0); // Signal that Slave is done
 }
 
@@ -75,4 +77,8 @@ void SLAVETRANSMIT(uint8_t *data, uint32_t length) {
 			
         }
     }
+    
+     // Default State
+    
+    gpio_set_level(MISOPIN, 0);
 }

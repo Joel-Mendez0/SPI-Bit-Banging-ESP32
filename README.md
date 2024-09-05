@@ -41,6 +41,30 @@ This project demonstrates a custom SPI bit-banging implementation to enable comm
 
 - **Transfer Speed**: Approximately 173,158 microseconds (173 ms) for 1000 bytes of data transfer.
 
+**Test Code**
+```
+    while(1){
+        // Measure time before and after transmission
+        start_time = esp_timer_get_time();
+        MASTERTRANSMIT(data, 1000);
+        end_time = esp_timer_get_time();
+        printf("Master Transmit Time: %lld microseconds\n", (end_time - start_time));
+
+        vTaskDelay(pdMS_TO_TICKS(1000));
+
+        // Measure time before and after receiving
+        start_time = esp_timer_get_time();
+        MASTERRECEIVE(receivedData, 1000);
+        end_time = esp_timer_get_time();
+        printf("Master Receive Time: %lld microseconds\n", (end_time - start_time));
+
+        printbuffer(receivedData, 1000);
+
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
+}
+```
+
 ## Pin Connections
 
 To establish communication between the master and slave ESP32s, connect the following GPIO pins:
